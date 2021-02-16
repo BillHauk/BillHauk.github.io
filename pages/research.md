@@ -4,7 +4,14 @@ title: Research
 description: Bill Hauk's research
 ---
 
+# Academic Research in Peer-Reviewed Journals
+
 ## Working Papers
+
+### Raising the Cost of Doing Business in Lower Income Countries: Trade Agreements with Stringent Multilateral Environmental Regulations (with Bentley Coffey and Patrick McLaughlin)
+We explore how multilateral environmental regulations may adversely affect trade flows between countries with different incomes.   Using the gravity equation, we examine the effect on bilateral trade flows of increases in environmental regulation stringency ratings, taken from survey data covering a panel of 56 countries.  We test for significant differences in the effects of the stringency of environmental regulations on exports across countries’ income levels and EU membership. We show that an increase in environmental regulation stringency leads to a dramatic decrease in exports from poorer EU-members; conversely, a similar change in environmental regulation does not appear to significantly affect the exports of richer EU-members.  The results are consistent with our theoretical model of the costs of multilateral environmental regulations, which are disproportionately borne by poorer countries due to both the uneven competitiveness effect and the uneven burden of compliance.
+
+[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/eunenviregs.pdf)
 
 ### Heinrich Pesch and the Anglo-German Divide in Economics
 The Rev. Heinrich Pesch, S.J. was a German economist and social philosopher who was an active scholar from the 1890s to 1920s.  His work had a significant impact on a generation of German Catholic social thinkers and particularly the papal encyclical <i>Quadragesimo Anno</i>.  His method of social analysis, which he called Solidarism, was informed by Catholic Social Thought, but based on natural law principles that he argued were accessible to all people of good will.  This article argues that, although his school of thought did not survive the Nazi and World War II years, many of his ideas had a lingering effect on Economic thought for the German center-right.  This influence may be contrasted with the center-right in the English-speaking world, where there was a strong divorce between Christian social thinking and Economics.  Consequently, a gap emerged between Economic policy in Germany and Britain, which contributed to some of the divides leading to Brexit.
@@ -13,6 +20,14 @@ The Rev. Heinrich Pesch, S.J. was a German economist and social philosopher who 
 
 
 ## Published Articles
+
+### The Impact of Chinese Imports on Indian Wage Inequality (with Kaveri Deb)
+#### Published in [<i>Indian Journal of Labour Economics</i> 2020](https://link.springer.com/article/10.1007/s41027-020-00218-5)
+The paper seeks to address the growing inequality in wages between skilled and unskilled workers and between male and female workers in India due to a growing import surge from China. The study on wage movements of skilled versus unskilled workers helps us to understand how imports from India’s largest trade partner have contributed to relative factor returns in the country’s most abundant factor of production. The consideration of wage divergence between male and female workers helps us in determining how significant China’s trade is in addressing gender inequality in India’s labour market. Our analysis reveals that the import surge from China has minor effects on the growing wage difference between skilled and unskilled workers. However, the effect of the Chinese import surge on wage divergence between male and female workers is significant. The existing literature on the effects of international trade on India labour market is largely silent on the considered aspects.
+
+### Early Intervention in College Classes and Improved Student Outcomes (with John Gordanier and Chandini Sankaran)
+#### Published in [<i>Economics of Education Review</i> 2019](https://www.sciencedirect.com/science/article/abs/pii/S0272775718305272)
+This research investigates the effectiveness of an early academic intervention in Principles of Economics courses at a large public university. After the end of the fourth week of classes, students who fell below a 70% threshold on a performance measure, or had an attendance rate below 75%, were referred to the university's Student Success Center for additional academic support. A referral consisted of students being informed of their status and being given optional assistance in course specific skills through tutoring, as well as training in general skills like time management and study skills. Using a regression discontinuity framework at the referral threshold, we find that the performance intervention improved student scores on common questions on the final exam by 6.5 to 7.5 percentage points for students at or near the performance threshold. The gains are particularly large for students who entered college with below average math placement scores. These results indicate that low-cost light-touch interventions may significantly affect student academic performance.
 
 ### Endogeneity Bias and Growth Regressions
 #### Published in [<i>Journal of Macroeconomics</i> 2017](https://www.sciencedirect.com/science/article/pii/S0164070416300854)
@@ -50,10 +65,6 @@ Using Monte Carlo simulations, this paper evaluates the bias properties of estim
 #### Published in [<i>Quarterly Journal of Political Science</i> 2007](https://www.nowpublishers.com/article/Details/QJPS-5048)
 Using data on authorizations from the 2005 Highway Bill, we show that the legislative allocation of pork barrel spending by US state (measured by the value of transportation earmarks per capita) greatly favors smaller states. We exploit the difference between two versions of the bill: the version that was passed by the House and the compromise version passed in conference committee. Our empirical results provide strong evidence in favor of theories of legislative malapportionment.
 
-#### <u>The effects of increased eye contact on feeding portions</u>
-*In this paper I estimate the effect of increased eye contact on the size of feeding portions delivered by my humans. Over a period of several months I varied the amount of time I spent in locked eye contact with my masters while secretely recording the total amount of food provided each day. The results incidate that the relationship between eye contact and portion size is concave, in that as eye contact increases, the portion size increases up until a point where it begins to decrease. Future research will examine whether time spent cuddling exhibits a similar relationship.*
-
-[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/sample-working-paper.pdf)
 
 
 <!-- Note: this is how to write a comment in HTML. Everything in here won't show up on your webpage.-->
