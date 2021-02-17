@@ -5,7 +5,7 @@ description: William Hauk is an associate professor of economics at the Universi
 keywords: Hauk, international trade, economic growth, political economics, Catholic social thought
 ---
 
-Bill Hauk is an Associate Professor of Economics in the Darla Moore School of Business at the University of South Carolina.  My research interests include: international trade, economic growth, political economics, and the intersection of Catholic social thought and economics.
+Bill Hauk is an Associate Professor of Economics in the [Darla Moore School of Business](https://sc.edu/study/colleges_schools/moore/index.php) at the [University of South Carolina](https://sc.edu/).  My research interests include: international trade, economic growth, political economics, and the intersection of Catholic social thought and economics.
 
 [curriculum vitae ![CV as pdf]({{ BASE_PATH }}/pages/icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/CV.pdf)<br/>
 
