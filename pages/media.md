@@ -5,6 +5,8 @@ description: Non-academic media writings and appearances
 ---
 
 ### Articles for <i>The Conversation</i>
+<details>
+<summary>Click to expand</summary>
 
 #### [Will It Be a 'V' or a 'K'?  The Many Shapes of Recessions and Recoveries](https://theconversation.com/will-it-be-a-v-or-a-k-the-many-shapes-of-recessions-and-recoveries-147727)
 Published October 13, 2020
@@ -29,3 +31,5 @@ Published January 3, 2018
 
 #### [Why Trump’s threat to slap tariffs on foreign steel is a bad idea](https://theconversation.com/why-trumps-threat-to-slap-tariffs-on-foreign-steel-is-a-bad-idea-80847)
 Published July 17, 2017
+
+</details>

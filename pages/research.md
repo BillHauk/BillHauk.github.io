@@ -5,6 +5,8 @@ description: Bill Hauk's research
 ---
 
 ## Working Papers
+<details>
+<summary>Click to expand</summary>
 
 #### Raising the Cost of Doing Business in Lower Income Countries: Trade Agreements with Stringent Multilateral Environmental Regulations
 ##### with Bentley Coffey and Patrick McLaughlin
@@ -17,9 +19,12 @@ We explore how multilateral environmental regulations may adversely affect trade
 The Rev. Heinrich Pesch, S.J. was a German economist and social philosopher who was an active scholar from the 1890s to 1920s.  His work had a significant impact on a generation of German Catholic social thinkers and particularly the papal encyclical <i>Quadragesimo Anno</i>.  His method of social analysis, which he called Solidarism, was informed by Catholic Social Thought, but based on natural law principles that he argued were accessible to all people of good will.  This article argues that, although his school of thought did not survive the Nazi and World War II years, many of his ideas had a lingering effect on Economic thought for the German center-right.  This influence may be contrasted with the center-right in the English-speaking world, where there was a strong divorce between Christian social thinking and Economics.  Consequently, a gap emerged between Economic policy in Germany and Britain, which contributed to some of the divides leading to Brexit.
 
 [click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/pesch.pdf)
+</details>
 
 
 ## Published Articles
+<details>
+<summary>Click to expand</summary>
 
 #### The Impact of Chinese Imports on Indian Wage Inequality
 ##### with Kaveri Deb
@@ -81,6 +86,9 @@ Using Monte Carlo simulations, this paper evaluates the bias properties of estim
 ##### with Romain Wacziarg
 ##### Published in [<i>Quarterly Journal of Political Science</i> 2007](https://www.nowpublishers.com/article/Details/QJPS-5048)
 Using data on authorizations from the 2005 Highway Bill, we show that the legislative allocation of pork barrel spending by US state (measured by the value of transportation earmarks per capita) greatly favors smaller states. We exploit the difference between two versions of the bill: the version that was passed by the House and the compromise version passed in conference committee. Our empirical results provide strong evidence in favor of theories of legislative malapportionment.
+
+</details>
+
 
 
 
