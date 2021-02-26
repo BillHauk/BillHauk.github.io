@@ -26,7 +26,8 @@ U.S.A.
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-          <li><a href="{{ BASE_PATH }}/assets/CV.pdf">CV</a></li>
+          <li><a href="https://www.researchgate.net/profile/William-Hauk">Research Gate</a></li>
+          <li><a href="https://sc.academia.edu/WilliamHauk">Academia.edu</a></li>
           <li><a href="https://github.com/BillHauk">GitHub</a></li>
           <li><a href="https://twitter.com/HaukBill">Twitter</a></li>
           <li><a href="https://scholar.google.com/citations?user=B744wv0AAAAJ&hl=en&oi=ao">Google Scholar</a></li>
