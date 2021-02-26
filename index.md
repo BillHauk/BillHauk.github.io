@@ -12,7 +12,9 @@ Bill Hauk is an Associate Professor of Economics in the [Darla Moore School of B
 
 ---
 
-![Bill Hauk](/assets/headshot.jpg)
+<p align="center">
+  <img src=""{{ BASE_PATH }}/assets/headshot.jpg">
+</p>
 
 #### Contact:
 > Email: hauk (at) moore.sc.edu<br>
