@@ -46,6 +46,8 @@ Published July 17, 2017
 
 </details>
 
+---
+
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">

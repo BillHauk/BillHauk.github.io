@@ -4,7 +4,7 @@ title: Research
 description: Bill Hauk's research
 ---
 
-## Working Papers
+### Working Papers
 <details>
 <summary>Click to expand</summary>
 
@@ -21,8 +21,9 @@ The Rev. Heinrich Pesch, S.J. was a German economist and social philosopher who 
 [click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/pesch.pdf)
 </details>
 
+---
 
-## Published Articles
+### Published Articles
 <details>
 <summary>Click to expand</summary>
 
@@ -88,6 +89,8 @@ Using Monte Carlo simulations, this paper evaluates the bias properties of estim
 Using data on authorizations from the 2005 Highway Bill, we show that the legislative allocation of pork barrel spending by US state (measured by the value of transportation earmarks per capita) greatly favors smaller states. We exploit the difference between two versions of the bill: the version that was passed by the House and the compromise version passed in conference committee. Our empirical results provide strong evidence in favor of theories of legislative malapportionment.
 
 </details>
+
+---
 
 <div class="navbar">
   <div class="navbar-inner">
