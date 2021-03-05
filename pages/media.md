@@ -48,6 +48,30 @@ Published July 17, 2017
 
 ---
 
+### TV, Radio, and Newspaper Mentions
+
+<details>
+<summary>Click to expand</summary>
+
+#### [As Virus Raged, China Snapped Up Luxury Cars Made in America](https://www.bloomberg.com/news/features/2020-05-22/as-virus-raged-china-snapped-up-luxury-cars-made-in-america)
+Bloomberg, May 22, 2020
+
+#### [Midlands residents receive first wave of stimulus checks](https://www.wistv.com/2020/04/15/midlands-residents-receive-first-wave-stimulus-checks/)
+WIS TV (Columbia, SC), April 15, 2020
+
+#### [Tariffs slow SC manufacturing investment, putting projects on ‘long pause’ ](https://www.postandcourier.com/business/tariffs-slow-sc-manufacturing-investment-putting-projects-on-long-pause/article_c9a8a456-7b0e-11e9-b4a0-5ff908f552b9.html)
+The (Charleston, SC) Post and Courier, June 15, 2019
+
+#### [Midlands soybean farmers take major hit to bottom line thanks to Chinese tariffs](https://www.wistv.com/story/38686412/midlands-soybean-farmers-take-major-hit-to-bottom-line-thanks-to-chinese-tariffs/)
+WIS TV (Columbia, SC), July 19, 2018
+
+#### [Not Possible to Win a Trade War: No Winners in US Trade Tariffs](https://www.abc.net.au/news/programs/the-world/2018-03-07/not-possible-to-win-a-trade-war:-no-winners-in-us/9526170)
+ABC News (Australia), March 7, 2018
+
+</details>
+
+---
+
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
