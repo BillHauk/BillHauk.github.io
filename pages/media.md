@@ -53,6 +53,9 @@ Published July 17, 2017
 <details>
 <summary>Click to expand</summary>
 
+#### [Many could receive stimulus payment by the end of March](https://www.wltx.com/article/money/many-expected-to-receive-stimulus-payment-by-end-of-march/101-e0619818-0989-44c7-86da-31b7a4c0bfbc)
+WLTX TV (Columbia, SC), March 11, 2021
+
 #### [As Virus Raged, China Snapped Up Luxury Cars Made in America](https://www.bloomberg.com/news/features/2020-05-22/as-virus-raged-china-snapped-up-luxury-cars-made-in-america)
 Bloomberg, May 22, 2020
 
