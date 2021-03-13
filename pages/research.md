@@ -80,6 +80,7 @@ What effect, if any, does legislative malapportionment have on international tra
 #### A Monte Carlo Study of Growth Regressions
 ##### with Romain Wacziarg
 ##### Published in [<i>Journal of Economic Growth</i> 2009](https://link.springer.com/article/10.1007/s10887-009-9040-3)
+[GitHub page with simulation files](https://github.com/BillHauk/MonteCarloProgram)
 Using Monte Carlo simulations, this paper evaluates the bias properties of estimators commonly used to estimate growth regressions derived from the Solow model. We explicitly allow for measurement error, country-specific fixed effects and regressor endogeneity. An OLS estimator applied to a single cross-section of variables averaged over time (the between estimator) performs best in terms of the extent of bias on each of the estimated coefficients. Fixed-effects and the Arellano–Bond GMM estimator overstate the speed of convergence under a wide variety of assumptions, while the between estimator understates it. Finally, fixed effects and Arellano–Bond bias towards zero the slope estimates on the human and physical capital accumulation variables, while the between estimator and the Blundell–Bond system GMM estimator bias these coefficients upwards.
 
 
