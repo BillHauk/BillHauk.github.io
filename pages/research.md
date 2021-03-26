@@ -69,6 +69,7 @@ The proper way to measure differences in trade protection across countries and e
 
 #### U.S. Import and Export Elasticities:  A Panel Data Approach
 ##### Published in [<i>Empirical Economics</i> 2012](https://link.springer.com/article/10.1007/s00181-011-0456-1)
+[GitHub page with generated estimates](https://github.com/BillHauk/tradeelasticityestimates)
 This article describes the creation of a new dataset on sectoral-level import and export elasticities in the U.S. between the years 1978 and 2001. It proposes the use of panel data techniques as a means of generating import price indexes, and then using them to measure trade elasticities while instrumenting for the endogeneous variables. In particular, it provides a dataset listing trade elasticities for a broad range of sectors at the North American Industry Classification System 4-digit, and 6-digit and the Harmonized Tariff System 6-digit, and 10-digit levels of industry aggregation. These results are compared to previous estimates in the literature. The resulting estimates can be used in a wide-range of applications in empirical studies of international trade policy, particularly in analyzing the welfare effects of international trade.
 
 
