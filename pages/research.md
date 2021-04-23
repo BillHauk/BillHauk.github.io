@@ -41,6 +41,7 @@ This research investigates the effectiveness of an early academic intervention i
 
 #### Endogeneity Bias and Growth Regressions
 ##### Published in [<i>Journal of Macroeconomics</i> 2017](https://www.sciencedirect.com/science/article/pii/S0164070416300854)
+[GitHub page with simulation files](https://github.com/BillHauk/EndogeneityProgram)<br>
 The problem of regressor endogeneity stemming from reverse casuality is one that has plagued economists working in the field of empirical economic growth for some time. This paper attempts to address the relevant magnitude of this issue in the context of growth regressions based on the Solow growth model. The paper develops a method of running Monte Carlo simulations that allows us to generate simulated data that match the moments of observed real-world data typically used in such regressions while simultaneously allowing us to impose arbitrarily high correlations between the steady-state determinants of the Solow model and the unobserved residual term of the data-generating process. After running simulations that represent a wide sample of the mathematically-possible correlations, we conclude that a between estimator or a random effects estimator will deliver a lower average absolute bias across all coefficients than alternative estimators in almost all of our simulations. Conversely, estimators that use within-country variation will generate lower biases when looking solely at rates of convergence. Furthermore, we conclude that these results are robust when restricting our sample of simulations to several subsets of the assumed parameters and to changing our assumptions about country fixed-effects terms.
 
 
@@ -69,7 +70,7 @@ The proper way to measure differences in trade protection across countries and e
 
 #### U.S. Import and Export Elasticities:  A Panel Data Approach
 ##### Published in [<i>Empirical Economics</i> 2012](https://link.springer.com/article/10.1007/s00181-011-0456-1)
-[GitHub page with generated estimates](https://github.com/BillHauk/tradeelasticityestimates)
+[GitHub page with generated estimates](https://github.com/BillHauk/tradeelasticityestimates)<br>
 This article describes the creation of a new dataset on sectoral-level import and export elasticities in the U.S. between the years 1978 and 2001. It proposes the use of panel data techniques as a means of generating import price indexes, and then using them to measure trade elasticities while instrumenting for the endogeneous variables. In particular, it provides a dataset listing trade elasticities for a broad range of sectors at the North American Industry Classification System 4-digit, and 6-digit and the Harmonized Tariff System 6-digit, and 10-digit levels of industry aggregation. These results are compared to previous estimates in the literature. The resulting estimates can be used in a wide-range of applications in empirical studies of international trade policy, particularly in analyzing the welfare effects of international trade.
 
 
