@@ -30,7 +30,7 @@ The Rev. Heinrich Pesch, S.J. was a German economist and social philosopher who 
 #### The Impact of Chinese Imports on Indian Wage Inequality
 ##### with Kaveri Deb
 ##### Published in [<i>Indian Journal of Labour Economics</i> 2020](https://link.springer.com/article/10.1007/s41027-020-00218-5)
-[GitHub page with data files](https://github.com/BillHauk/ChinaShockWagesinIndia)
+[GitHub page with data files](https://github.com/BillHauk/ChinaShockWagesinIndia)<br>
 The paper seeks to address the growing inequality in wages between skilled and unskilled workers and between male and female workers in India due to a growing import surge from China. The study on wage movements of skilled versus unskilled workers helps us to understand how imports from India’s largest trade partner have contributed to relative factor returns in the country’s most abundant factor of production. The consideration of wage divergence between male and female workers helps us in determining how significant China’s trade is in addressing gender inequality in India’s labour market. Our analysis reveals that the import surge from China has minor effects on the growing wage difference between skilled and unskilled workers. However, the effect of the Chinese import surge on wage divergence between male and female workers is significant. The existing literature on the effects of international trade on India labour market is largely silent on the considered aspects.
 
 
