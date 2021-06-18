@@ -53,6 +53,9 @@ Published July 17, 2017
 <details>
 <summary>Click to expand</summary>
 
+#### [Many in SC will be on the hook to repay student debt as COVID relief nears end](https://www.postandcourier.com/business/many-in-sc-will-be-on-the-hook-to-repay-student-debt-as-covid-relief/article_83e41700-c87a-11eb-92e4-e3db977c70b7.html)
+The Post and Courier (Charleston, SC), June 13, 2021
+
 #### [Many could receive stimulus payment by the end of March](https://www.wltx.com/article/money/many-expected-to-receive-stimulus-payment-by-end-of-march/101-e0619818-0989-44c7-86da-31b7a4c0bfbc)
 WLTX TV (Columbia, SC), March 11, 2021
 
