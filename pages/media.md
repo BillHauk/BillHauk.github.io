@@ -53,6 +53,12 @@ Published July 17, 2017
 <details>
 <summary>Click to expand</summary>
 
+#### [UofSC professor speaks on gas prices in the Midlands](https://www.abccolumbia.com/2021/11/11/uofsc-professor-speaks-on-gas-prices-in-the-midlands/?utm_term=Autofeed&utm_medium=Social&utm_source=Facebook#Echobox=1636678509)
+ABC Columbia (Columbia, SC), November 11, 2021
+
+#### [Social Security to increase by 5.9%, largest boost since 1982](https://www.wltx.com/article/money/social-security-increase-5-point-nine-percent/101-6549a257-1e5d-4f11-812e-1f7601662a8a)
+WLTX News 19 (Columbia, SC), October 14, 2021
+
 #### [Many in SC will be on the hook to repay student debt as COVID relief nears end](https://www.postandcourier.com/business/many-in-sc-will-be-on-the-hook-to-repay-student-debt-as-covid-relief/article_83e41700-c87a-11eb-92e4-e3db977c70b7.html)
 The Post and Courier (Charleston, SC), June 13, 2021
 
