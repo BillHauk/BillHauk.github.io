@@ -9,21 +9,24 @@ Bill Hauk is an Associate Professor of Economics in the [Darla Moore School of B
 
 [curriculum vitae ![CV as pdf]({{ BASE_PATH }}/pages/icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/CV.pdf)<br/>
 
-
 ---
 
 ![Bill Hauk](/assets/headshot.jpg)
 
-#### Email:
+#### Email
+
 > hauk (at) moore.sc.edu<br>
-#### Phone:
+
+#### Phone
+
 > +1-803-777-6044<br>
-#### Address:
+
+#### Address
+
 >Darla Moore School of Business<br>
 1014 Greene St.<br>
 Columbia, SC 29208<br>
 U.S.A.
-
 
 <div class="navbar">
   <div class="navbar-inner">
