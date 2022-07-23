@@ -8,6 +8,14 @@ description: Non-academic media writings and appearances
 <details>
 <summary>Click to expand</summary>
 
+#### [America’s cost of ‘defending freedom’ in Ukraine: Higher food and gas prices and an increased risk of recession](https://theconversation.com/americas-cost-of-defending-freedom-in-ukraine-higher-food-and-gas-prices-and-an-increased-risk-of-recession-177703)
+Published February 24, 2022
+<br />
+
+#### [Why is inflation so high? Is it bad? An economist answers 3 questions about soaring consumer prices](https://theconversation.com/why-is-inflation-so-high-is-it-bad-an-economist-answers-3-questions-about-soaring-consumer-prices-173572)
+Published July 22, 2022
+<br />
+
 #### [Relief or Stimulus: What’s the Difference, and What It Means for Biden’s $1.9 trillion Coronavirus Package](https://theconversation.com/relief-or-stimulus-whats-the-difference-and-what-it-means-for-bidens-1-9-trillion-coronavirus-package-155012)
 Published February 24, 2021
 <br />
@@ -52,6 +60,12 @@ Published July 17, 2017
 
 <details>
 <summary>Click to expand</summary>
+
+#### [Is inflation impacting climate change? The answer’s not so simple, experts say](https://www.southcarolinapublicradio.org/sc-news/2022-07-22/is-inflation-impacting-climate-change-the-answers-not-so-simple-experts-say)
+South Carolina Public Radio, July 22, 2022
+
+#### [How the Ukraine crisis could affect your pocketbook](https://www.npr.org/2022/02/25/1083220690/how-the-ukraine-crisis-could-affect-your-pocketbook)
+The Indicator from Planet Money Podcast (NPR), February 25, 2022
 
 #### [UofSC professor speaks on gas prices in the Midlands](https://www.abccolumbia.com/2021/11/11/uofsc-professor-speaks-on-gas-prices-in-the-midlands/?utm_term=Autofeed&utm_medium=Social&utm_source=Facebook#Echobox=1636678509)
 ABC Columbia (Columbia, SC), November 11, 2021
