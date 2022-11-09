@@ -9,6 +9,14 @@ description: Bill Hauk's research
 <details>
 <summary>Click to expand</summary>
 
+#### The Empire Strikes Back: The Effect of Historical and Cultural Affiliations on the Allocation of FDI in Eastern Europe
+
+##### with Alexandra Troidl and Doug Woodward
+
+This paper investigates whether culture and history impacts the spatial allocation of foreign direct investment (FDI). The importance of culture is well documented in both the international business and economics literature; however, the causal impact of culture on the location of FDI has been difficult to determine.  In this study, we implement a spatial regression discontinuity design to test for discontinuous changes in investment at the historical border of the Habsburg Empire. There is evidence that the empire had a long-lasting impact on culture, trust, and institutions in its territories. We propose that countries sharing a former affiliation with the empire will be more likely to invest in each other today. The former empire had a border which ran through several present-day countries. Cities located on either side of this historical border have shared common institutions for the last 100 years. This unique setting allows us to identify a cultural effect that is separate from institutions, nationality, religion, and language. The results suggest that there are between 0.24 and 0.32 additional investments per 10,000 individuals coming from Habsburg-affiliated countries in the former empire territories of Romania and Serbia today.
+
+[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/habsburgempire.pdf)
+
 #### Incentives, Agglomeration, and the Location of Greenfield Foreign Investment
 
 ##### with Alexandra Troidl and Doug Woodward
