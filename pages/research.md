@@ -34,6 +34,7 @@ We explore how multilateral environmental regulations may adversely affect trade
 [click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/eutradenenviregs.pdf)
 
 #### Heinrich Pesch and the Anglo-German Divide in Economics
+(Revising to Resubmit to European Journal of the History of Economic Thought)
 
 The Rev. Heinrich Pesch, S.J. was a German economist and social philosopher who was an active scholar from the 1890s to 1920s.  His work had a significant impact on a generation of German Catholic social thinkers and particularly the papal encyclical <i>Quadragesimo Anno</i>.  His method of social analysis, which he called Solidarism, was informed by Catholic Social Thought, but based on natural law principles that he argued were accessible to all people of good will.  This article argues that, although his school of thought did not survive the Nazi and World War II years, many of his ideas had a lingering effect on Economic thought for the German center-right.  This influence may be contrasted with the center-right in the English-speaking world, where there was a strong divorce between Christian social thinking and Economics.  Consequently, a gap emerged between Economic policy in Germany and Britain, which contributed to some of the divides leading to Brexit.
 
