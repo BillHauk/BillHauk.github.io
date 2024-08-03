@@ -9,6 +9,16 @@ description: Bill Hauk's research
 <details>
 <summary>Click to expand</summary>
 
+#### The Neighborhood Brand Effect on Housing Prices
+
+##### with Doug Woodward, Marian Manic, Joseph von Nessen, and Paulo Guimaraes
+
+We propose that neighborhoods have a measurable effect on housing prices. In theory, searching for houses by neighborhood can be seen as a heuristic process, reducing the time and effort needed to evaluate a plethora of particular local attributes that are associated with the price premium of the house. To test this hypothesis, we estimate the neighborhood’s fixed effect that picks up the time-invariant quality of the area within the framework of a hedonic housing price model. Our database encompasses more than 50,000 housing market transactions in Charleston, South Carolina. Our regression fits the data extremely well, with the neighborhood fixed effect exerting a pronounced effect on regression results and outperforming significantly alternative local areal units. The fixed effect estimates are ultimately rank-ordered to evaluate their heterogeneous effect on the housing price premium. The analysis reveals that neighborhood fixed effects capture effectively the wide range of house price premiums, from high-priced historic districts and ocean-side communities to low-price, poverty-stricken areas damaged by urban redevelopment. In addition, our approach to using spatial fixed effect estimates as a tool to measure the brand effect of regions can be used to assess the value of regional identity in other contexts like industry location and migration. 
+
+The second important contribution we make to the literature is a new method of estimating the Moran’s I in large data sets. Based on our simplified Moran’s I tests, we show that spatial dependence is effectively eliminated when the neighborhood fixed effects are added to the model. This original econometric tool can be applied to a wide range of urban and regional research.
+
+[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/charlestonhousingprices.pdf)
+
 #### The Empire Strikes Back: The Effect of Historical and Cultural Affiliations on the Allocation of FDI in Eastern Europe
 
 ##### with Alexandra Troidl and Doug Woodward
