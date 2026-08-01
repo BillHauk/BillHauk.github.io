@@ -1,2 +1,12 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
 Gemfile.lock
+vendor/
+
+# Full-resolution image sources; only the generated variants in assets/img are committed.
+assets/_src/
+
 .DS_Store
+Thumbs.db
