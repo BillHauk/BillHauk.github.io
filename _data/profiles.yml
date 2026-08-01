@@ -23,7 +23,5 @@
 - name: "GitHub"
   url: "https://github.com/BillHauk"
 
-# Uncomment once you have an ORCID iD (free, ~2 minutes at https://orcid.org/register).
-# Add the same URL to `social.links` in _config.yml at the same time.
-# - name: "ORCID"
-#   url: "https://orcid.org/0000-0000-0000-0000"
+- name: "ORCID"
+  url: "https://orcid.org/0000-0003-1754-9019"
