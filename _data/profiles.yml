@@ -1,0 +1,29 @@
+# Profile and preprint links. Rendered once, in the footer and on the home page.
+# Order matters — Google Scholar first, since that is what academic visitors want.
+#
+# If you add or remove one here, also update `social.links` in _config.yml. That
+# separate list feeds the structured data search engines read (jekyll-seo-tag
+# cannot see _data files), so the two should stay in sync.
+
+- name: "Google Scholar"
+  url: "https://scholar.google.com/citations?user=B744wv0AAAAJ"
+
+- name: "IDEAS/RePEc"
+  url: "https://ideas.repec.org/f/pha466.html"
+
+- name: "SSRN"
+  url: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1729950"
+
+- name: "ResearchGate"
+  url: "https://www.researchgate.net/profile/William-Hauk"
+
+- name: "Academia.edu"
+  url: "https://sc.academia.edu/WilliamHauk"
+
+- name: "GitHub"
+  url: "https://github.com/BillHauk"
+
+# Uncomment once you have an ORCID iD (free, ~2 minutes at https://orcid.org/register).
+# Add the same URL to `social.links` in _config.yml at the same time.
+# - name: "ORCID"
+#   url: "https://orcid.org/0000-0000-0000-0000"

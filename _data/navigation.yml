@@ -1,0 +1,27 @@
+# Primary navigation. `key` is matched against each page's `nav:` front matter to
+# mark the current item — so a blog post at /blog/2026/08/01/... still highlights
+# "Blog". Reorder freely; the header renders these in file order.
+
+- key: publications
+  title: "Publications"
+  url: "/publications/"
+
+- key: working-papers
+  title: "Working Papers"
+  url: "/working-papers/"
+
+- key: media
+  title: "Media"
+  url: "/media/"
+
+# The blog is fully built (layout, styling, RSS feed at /feed.xml) but stays out
+# of the nav until there is a post worth pointing at. Uncomment these three lines
+# to turn it on.
+# - key: blog
+#   title: "Writing"
+#   url: "/blog/"
+
+- key: cv
+  title: "CV"
+  url: "/assets/CV.pdf"
+  pdf: true
