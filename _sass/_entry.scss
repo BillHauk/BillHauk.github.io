@@ -1,0 +1,109 @@
+// ---------------------------------------------------------------------------
+// Paper entry — publications and working papers share this component.
+//
+// Everything a reader needs to identify and obtain a paper (title, coauthors,
+// venue, PDF, DOI, data repository) is always visible. Only the abstract sits
+// behind a toggle. That is the inverse of the old site, where the entire list
+// was collapsed inside one <details> block.
+// ---------------------------------------------------------------------------
+
+.entry {
+  padding-top: var(--s6);
+  padding-bottom: var(--s6);
+  border-top: 1px solid var(--rule);
+}
+.entry:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+.entry:last-of-type {
+  padding-bottom: 0;
+}
+
+.entry__title {
+  margin: 0 0 var(--s2);
+  max-width: var(--measure);
+}
+
+.entry__authors,
+.entry__venue {
+  margin: 0 0 .2em;
+  max-width: var(--measure);
+}
+
+.entry__venue cite {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.05em;
+  color: var(--text);
+}
+
+.entry__links {
+  list-style: none;
+  margin: var(--s3) 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2) var(--s4);
+  max-width: none;
+}
+.entry__links li { max-width: none; }
+.entry__links a {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+// --- Abstract disclosure ---------------------------------------------------
+.abstract {
+  margin-top: var(--s4);
+}
+
+.abstract > summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: .55em;
+  font-family: var(--font-sans);
+  font-size: .6875rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.abstract > summary::-webkit-details-marker { display: none; }
+
+.abstract > summary::after {
+  content: "";
+  width: .38em;
+  height: .38em;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-.14em);
+}
+.abstract[open] > summary::after {
+  transform: rotate(-135deg) translateY(-.02em);
+}
+
+.abstract > summary:hover { color: var(--accent-hi); }
+.abstract > summary:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.abstract__body {
+  margin-top: var(--s4);
+  padding-left: var(--s4);
+  border-left: 2px solid var(--rule);
+}
+.abstract__body p {
+  font-size: .9375rem;
+  line-height: 1.62;
+  color: var(--n90);
+  margin-bottom: var(--s3);
+  max-width: var(--measure-tight);
+}
+.abstract__body p:last-child { margin-bottom: 0; }

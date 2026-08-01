@@ -1,0 +1,43 @@
+// Printing a publication list is a real use case for a CV-adjacent site, so
+// every abstract is force-expanded and the site chrome is dropped.
+
+@media print {
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .entry__links,
+  .post-nav,
+  .more {
+    display: none !important;
+  }
+
+  body {
+    font-size: 10.5pt;
+    line-height: 1.45;
+    background: #fff;
+    color: #000;
+    display: block;
+  }
+
+  .wrap {
+    max-width: none;
+    padding: 0;
+  }
+
+  main { padding: 0; }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .entry { page-break-inside: avoid; }
+  .entry__venue cite { font-style: italic; }
+  .abstract__body p { color: #000; font-size: 9.5pt; }
+
+  // Expand every disclosure. ::details-content is the modern lever; the second
+  // rule covers engines that do not support it yet.
+  details > summary { display: none; }
+  details::details-content { content-visibility: visible; }
+  details:not([open]) > *:not(summary) { display: block; }
+}

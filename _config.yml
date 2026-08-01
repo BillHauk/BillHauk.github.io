@@ -1,103 +1,94 @@
-# This is the default format.
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title
+# ---------------------------------------------------------------------------
+# Site identity
+# ---------------------------------------------------------------------------
+title:    "William R. Hauk, Jr."
+tagline:  "Associate Professor of Economics, University of South Carolina"
+description: >-
+  William R. Hauk, Jr. is an Associate Professor of Economics at the Darla Moore
+  School of Business, University of South Carolina. Research on international
+  trade, economic growth, political economics, and the intersection of Catholic
+  social thought and economics.
 
-exclude: [".rvmrc", ".rbenv-version", "ReadMe.md", "Rakefile", "changelog.md", "License.md", "Makefile", "Gemfile", "Gemfile.lock"]
-highlighter: rouge
+url:     "https://www.haukeconomics.com"
+baseurl: ""
+lang:    "en_US"
 
-# Themes are encouraged to use these universal variables
-# so be sure to set them if your theme uses them.
-#
-title : William R. Hauk, Jr., Ph.D.
-author :
-  name : William Hauk
-  email : hauk@moore.sc.edu
-  github : BillHauk
-  twitter : HaukBill
+author:
+  name:  "William R. Hauk, Jr."
+  email: "hauk@moore.sc.edu"
 
-production_url : http://www.haukeconomics.com/
+contact:
+  email:    "hauk@moore.sc.edu"
+  phone:    "+1-803-777-6044"
+  office:   "Room 301M"
+  building: "Darla Moore School of Business"
+  street:   "1014 Greene St."
+  locality: "Columbia"
+  region:   "SC"
+  postal:   "29208"
+  country:  "U.S.A."
 
-# Tell Github to use the kramdown markdown interpreter
-# (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
-markdown: CommonMarkGhPages
+# Feeds the `sameAs` array in the structured data search engines read.
+# jekyll-seo-tag cannot read _data files, so keep this in sync with
+# _data/profiles.yml by hand. It is only a few lines.
+social:
+  name: "William R. Hauk, Jr."
+  links:
+    - "https://scholar.google.com/citations?user=B744wv0AAAAJ"
+    - "https://ideas.repec.org/f/pha466.html"
+    - "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1729950"
+    - "https://www.researchgate.net/profile/William-Hauk"
+    - "https://sc.academia.edu/WilliamHauk"
+    - "https://github.com/BillHauk"
 
-# All Jekyll-Bootstrap specific configurations are namespaced into this hash
-#
-JB :
-  version : 0.3.0
+# ---------------------------------------------------------------------------
+# Build
+# ---------------------------------------------------------------------------
+# Replaces `markdown: CommonMarkGhPages`, which GitHub deprecated and may stop
+# supporting without notice. kramdown is the only engine GitHub Pages supports.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false      # a single newline is a space, not a <br>, so abstracts
+                        # in _data may be wrapped for readability
+  auto_ids: true
+  syntax_highlighter: rouge
 
+sass:
+  sass_dir: _sass
+  style: compressed
 
-  # All links will be namespaced by BASE_PATH if defined.
-  # Links in your website should always be prefixed with {{BASE_PATH}}
-  # however this value will be dynamically changed depending on your deployment situation.
-  #
-  # CNAME (http://yourcustomdomain.com)
-  #   DO NOT SET BASE_PATH
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Project Pages (http://username.github.io/project-name)
-  #
-  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
-  #
-  # CAUTION:
-  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
-  #   - Only the following values are falsy: ["", null, false]
-  #   - When setting BASE_PATH it must be a valid url.
-  #     This means always setting the protocol (http|https) or prefixing with "/"
+# All four are on the GitHub Pages plugin whitelist, so the site keeps building
+# natively with no GitHub Actions workflow to maintain.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
 
-  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
-  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
-  #
-  # Override this by defining an absolute path to assets here.
-  # ex:
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
-  #   /assets
-  #
-  # ASSET_PATH : http://kbroman.org/assets/themes/twitter
+# Applies to blog posts only; the standalone pages set their own `permalink`.
+permalink: /blog/:year/:month/:day/:title/
 
-  # These paths are to the main pages Jekyll-Bootstrap ships with.
-  # Some JB helpers refer to these paths; change them here if needed.
-  #
-  archive_path: nil
-  categories_path : nil
-  tags_path : nil
-  atom_path : nil
-  rss_path : nil
+timezone: America/New_York
 
-  # Settings for comments helper
-  # Set 'provider' to the comment provider you want to use.
-  # Set 'provider' to false to turn commenting off globally.
-  #
-  comments :
-    provider : false
+feed:
+  path: feed.xml
 
-  # Settings for analytics helper
-  # Set 'provider' to the analytics provider you want to use.
-  # Set 'provider' to false to turn analytics off globally.
-  #
-  analytics :
-    provider : false
+defaults:
+  - scope: { path: "" }
+    values:
+      image: "/assets/img/og-card.png"
+  - scope: { path: "", type: "posts" }
+    values:
+      layout: "post"
+      nav: "blog"
 
-  # Settings for sharing helper.
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
-  # Set 'provider' to the sharing provider you want to use.
-  # Set 'provider' to false to turn sharing off globally.
-  #
-  sharing :
-    provider : false
-
-  # Settings for all other include helpers can be defined by creating
-  # a hash with key named for the given helper. ex:
-  #
-  #   pages_list :
-  #     provider : "custom"
-  #
-  # Setting any helper's provider to 'custom' will bypass the helper code
-  # and include your custom code. Your custom file must be defined at:
-  #   ./_includes/custom/[HELPER]
-  # where [HELPER] is the name of the helper you are overriding.
+# NOTE: never add CNAME here — it is what points www.haukeconomics.com at this repo.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.md
+  - tools
+  - vendor
+  - .jekyll-cache

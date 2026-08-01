@@ -1,0 +1,95 @@
+// Garnet footer — the one large field of brand color on the page. It grounds
+// the layout and satisfies the brand without turning the header into a
+// department microsite banner.
+
+.site-footer {
+  flex-shrink: 0;
+  background: var(--footer-bg);
+  color: var(--usc-sandstorm);
+  margin-top: var(--s8);
+}
+
+.site-footer__inner {
+  padding-top: var(--s7);
+  padding-bottom: var(--s7);
+  display: grid;
+  gap: var(--s6);
+}
+@media (min-width: 40em) {
+  .site-footer__inner {
+    grid-template-columns: 1fr auto;
+    align-items: start;
+  }
+}
+
+.site-footer a {
+  color: inherit;
+  box-shadow: inset 0 -1px 0 0 rgba(255, 242, 227, .45);
+}
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #FFFFFF;
+  box-shadow: inset 0 -1px 0 0 #FFFFFF;
+}
+.site-footer a:focus-visible {
+  outline: 2px solid var(--usc-sandstorm);
+  outline-offset: 3px;
+}
+
+.site-footer .eyebrow {
+  color: rgba(255, 242, 227, .62);
+  margin-bottom: var(--s3);
+}
+
+.contact {
+  font-family: var(--font-sans);
+  font-size: .875rem;
+  line-height: 1.7;
+  font-style: normal;
+  max-width: 22rem;
+}
+.contact p { max-width: none; margin-bottom: var(--s3); }
+.contact p:last-child { margin-bottom: 0; }
+
+.profiles ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2) var(--s4);
+}
+.profiles li { max-width: none; }
+.profiles a {
+  font-family: var(--font-sans);
+  font-size: .8125rem;
+  letter-spacing: .03em;
+}
+
+// On the home page the profile row sits on the light background, not garnet.
+.hero .profiles {
+  margin-top: var(--s5);
+}
+.hero .profiles a {
+  color: var(--accent);
+  box-shadow: none;
+  font-weight: 700;
+  font-size: .75rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+.hero .profiles a:hover {
+  color: var(--accent-hi);
+  box-shadow: inset 0 -1px 0 0 currentColor;
+}
+
+.site-footer__legal {
+  grid-column: 1 / -1;
+  font-family: var(--font-sans);
+  font-size: .75rem;
+  color: rgba(255, 242, 227, .70);
+  margin: 0;
+  padding-top: var(--s5);
+  border-top: 1px solid rgba(255, 242, 227, .22);
+  max-width: none;
+}

@@ -1,0 +1,26 @@
+---
+layout: page
+title: "Writing"
+eyebrow: "Notes and commentary"
+nav: blog
+permalink: /blog/
+description: "Short-form writing and commentary by William R. Hauk, Jr."
+---
+
+{% if site.posts.size > 0 %}
+<ul class="post-list">
+  {%- for post in site.posts %}
+  <li class="post-list__item">
+    <h2 class="post-list__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post__meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus: 0 }}, {{ post.date | date: "%Y" }}</time>
+    </p>
+    {%- if post.description or post.excerpt %}
+    <p class="post-list__excerpt">{{ post.description | default: post.excerpt | strip_html | normalize_whitespace | truncatewords: 40 }}</p>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{% else %}
+<p class="empty-note">No posts yet.</p>
+{% endif %}

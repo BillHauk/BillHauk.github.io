@@ -1,0 +1,15 @@
+{%- comment -%}
+One media item. Usage: {% include media-item.html item=m %}
+
+The day is unpadded via `| date: "%d" | plus: 0` rather than strftime's %-d.
+%-d is a glibc extension: it works on GitHub's Linux builders and crashes a
+local Windows build, which is a confusing asymmetry to debug.
+{%- endcomment -%}
+{%- assign m = include.item -%}
+<li class="media-item">
+  <a class="media-item__title" href="{{ m.url }}">{{ m.title }}</a>
+  <p class="media-item__meta">
+    {%- if m.outlet %}<span class="media-item__outlet">{{ m.outlet }}{% if m.place %} ({{ m.place }}){% endif %}</span>{% endif -%}
+    <time datetime="{{ m.date | date: '%Y-%m-%d' }}">{{ m.date | date: "%B" }} {{ m.date | date: "%d" | plus: 0 }}, {{ m.date | date: "%Y" }}</time>
+  </p>
+</li>

@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{%- comment -%}
+jekyll-seo-tag emits <title>, description, canonical, Open Graph, Twitter card,
+and the base JSON-LD block. It replaces the hand-rolled meta tags the old theme
+carried, along with the two <link href="/nil"> feed tags it emitted because
+`atom_path: nil` in YAML is the string "nil", not null.
+{%- endcomment -%}
+{%- seo -%}
+
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="alternate icon" href="{{ '/assets/img/favicon-32.png' | relative_url }}" sizes="32x32">
+<link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
+
+<meta name="theme-color" content="#73000A" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14110E" media="(prefers-color-scheme: dark)">
+
+{%- feed_meta -%}

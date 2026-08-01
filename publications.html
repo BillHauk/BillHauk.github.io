@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Publications"
+eyebrow: "Peer-reviewed articles"
+subtitle: "Journal articles on international trade, economic growth, and political economics. Abstracts expand in place; replication code and data are linked where available."
+nav: publications
+permalink: /publications/
+description: "Peer-reviewed journal articles by William R. Hauk, Jr. on international trade, economic growth, and political economics."
+redirect_from:
+  - /pages/research.html
+  - /research/
+---
+
+<p class="section-note">See also <a href="{{ '/working-papers/' | relative_url }}">working papers</a> and the <a href="{{ '/assets/CV.pdf' | relative_url }}">full CV</a>.</p>
+
+{% for p in site.data.publications %}{% include paper.html paper=p %}{% endfor %}
+
+{% include schema-publications.html %}

@@ -1,0 +1,144 @@
+// ---------------------------------------------------------------------------
+// Typography
+//
+// The whole character of the design comes from one split: Georgia carries
+// titles, prose, and abstracts; Arial carries metadata, navigation, eyebrow
+// labels, and buttons at small sizes with wide letter-spacing. That contrast is
+// what makes two system fonts read as a considered design rather than a default.
+// ---------------------------------------------------------------------------
+
+body {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@media (min-width: 30em) {
+  body { font-size: 1.125rem; }
+}
+@media (min-width: 60em) {
+  body { font-size: 1.1875rem; }
+}
+
+p, li { max-width: var(--measure); }
+p { margin: 0 0 var(--s4); }
+p:last-child { margin-bottom: 0; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  margin: 0 0 var(--s3);
+}
+
+// Georgia's bold is heavy. At large sizes it looks far more refined at weight
+// 400 with slightly negative tracking — this is the single most important rule
+// in the file.
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.12;
+  letter-spacing: -.018em;
+}
+h2 {
+  font-weight: 400;
+  font-size: 1.4375rem;
+  line-height: 1.22;
+  letter-spacing: -.012em;
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  letter-spacing: -.004em;
+}
+h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+@media (min-width: 40em) {
+  h1 { font-size: 2.625rem; }
+  h2 { font-size: 1.6875rem; }
+}
+
+// Small-caps is deliberately never used: Georgia has no true small-cap glyphs,
+// so browsers synthesize them and the result looks cheap. Georgia's old-style
+// numerals are left alone — they suit citation years well.
+
+// --- Eyebrow: the recurring section label -----------------------------------
+// Garnet, uppercase, wide-tracked Arial, with a hairline running to the right
+// edge. This is the design's main structural motif.
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: .6875rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 var(--s4);
+  max-width: none;
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+}
+.eyebrow::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: currentColor;
+  opacity: .32;
+}
+
+// --- Metadata voice ---------------------------------------------------------
+.meta,
+.entry__authors,
+.entry__venue,
+.entry__links,
+.media-item__meta,
+.post__meta {
+  font-family: var(--font-sans);
+  font-size: .875rem;
+  line-height: 1.5;
+  letter-spacing: .005em;
+  color: var(--muted);
+}
+
+blockquote {
+  margin: 0 0 var(--s4);
+  padding-left: var(--s4);
+  border-left: 2px solid var(--rule);
+  color: var(--n90);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: var(--s7) 0;
+}
+
+code, pre { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+code { font-size: .875em; }
+pre {
+  overflow-x: auto;
+  padding: var(--s4);
+  background: var(--n10);
+  border-radius: 2px;
+  max-width: 100%;
+}
+pre code { font-size: .8125rem; }
+
+::selection { background: var(--selection-bg); color: var(--text); }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}

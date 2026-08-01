@@ -1,0 +1,61 @@
+// Site header. Four to six items in a wrapping flex row — no hamburger, no
+// JavaScript, nothing to break.
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+}
+
+.site-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s3) var(--s5);
+  padding-top: var(--s4);
+  padding-bottom: var(--s4);
+}
+
+.brand__name {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  letter-spacing: -.01em;
+  color: var(--text);
+}
+.brand__role {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: .6875rem;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: .3em;
+}
+.brand:hover .brand__name { color: var(--accent); }
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2) var(--s5);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site-nav li { max-width: none; }
+
+.site-nav a {
+  font-family: var(--font-sans);
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-bottom: .3em;
+}
+.site-nav a:hover { color: var(--accent); }
+
+.site-nav a[aria-current="page"] {
+  color: var(--accent);
+  box-shadow: inset 0 -2px 0 0 var(--accent);
+}

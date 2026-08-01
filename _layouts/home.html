@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div class="wrap">
+
+  <section class="hero">
+    {% include headshot.html %}
+    <div class="hero__body">
+      <h1 class="hero__name">William R. Hauk, Jr.</h1>
+      <p class="hero__role">
+        <strong>Associate Professor of Economics</strong><br>
+        Academic Director, One-Year MBA and Professional MBA Programs<br>
+        Darla Moore School of Business, University of South Carolina
+      </p>
+      <div class="hero__intro">
+        {{ content }}
+      </div>
+      <p class="hero__cta">
+        <a class="btn" href="{{ '/assets/CV.pdf' | relative_url }}">Curriculum vitae (PDF)</a>
+      </p>
+      {% include profile-links.html %}
+    </div>
+  </section>
+
+  {%- assign recent_pubs = site.data.publications | slice: 0, 3 %}
+  {%- if recent_pubs.size > 0 %}
+  <section class="home-section">
+    <p class="eyebrow">Selected publications</p>
+    {% for p in recent_pubs %}{% include paper.html paper=p %}{% endfor %}
+    <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a></p>
+  </section>
+  {%- endif %}
+
+  {%- assign recent_wps = site.data.working_papers | slice: 0, 2 %}
+  {%- if recent_wps.size > 0 %}
+  <section class="home-section">
+    <p class="eyebrow">Working papers</p>
+    {% for p in recent_wps %}{% include paper.html paper=p %}{% endfor %}
+    <p class="more"><a href="{{ '/working-papers/' | relative_url }}">All working papers &rarr;</a></p>
+  </section>
+  {%- endif %}
+
+  {%- assign recent_media = site.data.media.conversation | sort: "date" | reverse | slice: 0, 3 %}
+  {%- if recent_media.size > 0 %}
+  <section class="home-section">
+    <p class="eyebrow">Recent commentary</p>
+    <ul class="media-list">
+      {% for m in recent_media %}{% include media-item.html item=m %}{% endfor %}
+    </ul>
+    <p class="more"><a href="{{ '/media/' | relative_url }}">All media &rarr;</a></p>
+  </section>
+  {%- endif %}
+
+</div>

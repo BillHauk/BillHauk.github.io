@@ -1,0 +1,13 @@
+{%- assign c = site.contact -%}
+<address class="contact">
+  <p>
+    <a href="mailto:{{ c.email }}">{{ c.email }}</a><br>
+    <a href="tel:{{ c.phone | remove: '-' | remove: ' ' }}">{{ c.phone }}</a>
+  </p>
+  <p>
+    {{ c.building }}{% if c.office %}, {{ c.office }}{% endif %}<br>
+    {{ c.street }}<br>
+    {{ c.locality }}, {{ c.region }} {{ c.postal }}<br>
+    {{ c.country }}
+  </p>
+</address>

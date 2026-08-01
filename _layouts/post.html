@@ -1,5 +1,23 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/twitter/post.html %}
+<article class="wrap">
+
+  <header class="post-header">
+    <p class="eyebrow">Writing</p>
+    <h1 class="post-header__title">{{ page.title }}</h1>
+    <p class="post__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B" }} {{ page.date | date: "%d" | plus: 0 }}, {{ page.date | date: "%Y" }}</time>
+    </p>
+  </header>
+
+  <div class="post__body">
+    {{ content }}
+  </div>
+
+  <nav class="post-nav" aria-label="More posts">
+    <span>{% if page.previous %}<a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>{% endif %}</span>
+    <span>{% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title }} &rarr;</a>{% endif %}</span>
+  </nav>
+
+</article>

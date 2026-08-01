@@ -1,0 +1,28 @@
+---
+layout: page
+title: "Media"
+eyebrow: "Public writing and press"
+subtitle: "Commentary on trade, tariffs, inflation, and the wider economy for general audiences."
+nav: media
+permalink: /media/
+description: "Articles by William R. Hauk, Jr. for The Conversation, plus television, radio, and newspaper appearances."
+redirect_from:
+  - /pages/media.html
+  - /press/
+---
+
+<section class="section">
+  <h2 class="section__title">Articles for <cite>The Conversation</cite></h2>
+  <ul class="media-list">
+    {%- assign items = site.data.media.conversation | sort: "date" | reverse %}
+    {% for m in items %}{% include media-item.html item=m %}{% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2 class="section__title">Television, radio, and newspaper</h2>
+  <ul class="media-list">
+    {%- assign items = site.data.media.mentions | sort: "date" | reverse %}
+    {% for m in items %}{% include media-item.html item=m %}{% endfor %}
+  </ul>
+</section>

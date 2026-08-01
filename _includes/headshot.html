@@ -1,0 +1,23 @@
+{%- comment -%}
+Renders the portrait if the generated variants exist, otherwise a monogram block
+with the same footprint so nothing shifts when the real photo lands.
+
+To supply the photo: save a high-resolution original as
+assets/_src/headshot-original.jpg (gitignored), then run tools/build-images.ps1.
+That writes assets/img/headshot-176.jpg and friends, stripping all metadata.
+{%- endcomment -%}
+{%- assign shot = site.static_files | where: "path", "/assets/img/headshot-352.jpg" | first -%}
+{%- assign shot_lg = site.static_files | where: "path", "/assets/img/headshot-528.jpg" | first -%}
+{%- if shot -%}
+<img class="headshot"
+     src="{{ '/assets/img/headshot-352.jpg' | relative_url }}"
+     srcset="{{ '/assets/img/headshot-176.jpg' | relative_url }} 176w,
+             {{ '/assets/img/headshot-352.jpg' | relative_url }} 352w{% if shot_lg %},
+             {{ '/assets/img/headshot-528.jpg' | relative_url }} 528w{% endif %}"
+     sizes="(max-width: 39.99em) 7.5rem, 11rem"
+     width="176" height="264"
+     alt="William R. Hauk, Jr."
+     decoding="async">
+{%- else -%}
+<div class="headshot headshot--placeholder" aria-hidden="true">WH</div>
+{%- endif -%}

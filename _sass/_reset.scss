@@ -1,0 +1,37 @@
+// Minimal reset. Bootstrap 2 used to do this job in 113 KB.
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, blockquote, dl, dd, ul, ol {
+  margin: 0;
+}
+
+ul, ol { padding: 0; }
+
+img, picture, svg {
+  max-width: 100%;
+  display: block;
+}
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+// Keep the footer pinned to the bottom on short pages.
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main { flex: 1 0 auto; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,40 @@
+// Media list: denser than the paper entries, since each item is a single link.
+
+.media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.media-item {
+  max-width: none;
+  padding-top: var(--s4);
+  padding-bottom: var(--s4);
+  border-top: 1px solid var(--rule);
+}
+.media-item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.media-item__title {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: var(--measure);
+  margin-bottom: .3em;
+}
+
+.media-item__meta {
+  margin: 0;
+  max-width: var(--measure);
+}
+.media-item__outlet {
+  color: var(--text);
+}
+.media-item__outlet::after {
+  content: " · ";
+  color: var(--n50);
+}

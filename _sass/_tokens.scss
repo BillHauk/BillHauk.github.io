@@ -1,0 +1,57 @@
+// ---------------------------------------------------------------------------
+// Design tokens
+//
+// The palette is declared as raw CSS custom properties rather than Sass
+// variables. Two reasons: Ruby Sass 3.7 (which GitHub Pages pins) treats the
+// value of a custom property as literal text, so `--accent: $garnet` would emit
+// the string "$garnet"; and custom properties can be overridden wholesale in
+// the dark-mode block, which Sass variables cannot.
+// ---------------------------------------------------------------------------
+
+:root {
+  // --- Type stacks -------------------------------------------------------
+  // USC's brand faces are Berlingske Sans and Berlingske Serif, which are
+  // commercial and cannot be served publicly. The brand toolkit names Arial
+  // and Georgia as the official web substitutes; those are used here.
+  // Noto Serif and Liberation Sans cover Android and Linux, where Georgia and
+  // Arial are usually absent. Both are metrically close enough to hold.
+  --font-serif: Georgia, "Iowan Old Style", "Times New Roman", "Noto Serif", serif;
+  --font-sans:  Arial, "Helvetica Neue", Helvetica, "Liberation Sans", sans-serif;
+
+  // --- USC brand colors, verbatim from the toolkit -----------------------
+  --usc-garnet:      #73000A;   // primary
+  --usc-garnet-dark: #570008;   // icons and patterns only
+  --usc-rose:        #CC2E40;
+  --usc-atlantic:    #466A9F;
+  --usc-congaree:    #1F414D;
+  --usc-sandstorm:   #FFF2E3;
+  --usc-warm-grey:   #676156;
+
+  --n90: #363636;
+  --n70: #5C5C5C;
+  --n50: #A2A2A2;
+  --n30: #C7C7C7;
+  --n10: #ECECEC;
+
+  // --- Semantic tokens (light) -------------------------------------------
+  --bg:         #FFFCF8;        // warm near-white, nudged toward Sandstorm
+  --surface:    #FFFFFF;
+  --text:       #14110E;        // warm near-black; pure #000 is harsh on white
+  --muted:      var(--n70);
+  --rule:       #E5DED4;        // warm hairline
+  --accent:     var(--usc-garnet);
+  --accent-hi:  #8C0010;
+  --on-accent:  #FFFCF8;
+  --link-underline: rgba(115, 0, 10, .38);
+  --focus:      var(--usc-atlantic);
+  --selection-bg: var(--usc-sandstorm);
+  --footer-bg:  var(--usc-garnet);
+
+  // --- Measure and rhythm ------------------------------------------------
+  --wrap:    48rem;   // outer gutter box, shared by header, main, and footer
+  --measure: 34rem;   // ~75 characters of Georgia at 18px
+  --measure-tight: 32rem;
+
+  --s1: .25rem;  --s2: .5rem;   --s3: .75rem;  --s4: 1rem;
+  --s5: 1.5rem;  --s6: 2rem;    --s7: 3rem;    --s8: 4.5rem;  --s9: 6rem;
+}

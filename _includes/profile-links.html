@@ -1,0 +1,11 @@
+{%- comment -%}
+Replaces the six-link navbar that was copy-pasted verbatim into index.md,
+research.md, and media.md. rel="me" lets these double as identity verification.
+{%- endcomment -%}
+<nav class="profiles" aria-label="Profiles and preprint archives">
+  <ul>
+    {%- for p in site.data.profiles %}
+    <li><a href="{{ p.url }}" rel="me noopener">{{ p.name }}</a></li>
+    {%- endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,33 @@
+{%- comment -%}
+Per-article structured data for /publications/. jekyll-seo-tag handles the page
+itself but cannot describe a list of works, so this emits a ScholarlyArticle
+graph alongside it. Multiple ld+json blocks on one page are valid.
+
+`jsonify` does the escaping, including the curly apostrophes that appear
+throughout the abstracts — never hand-escape these.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% for p in site.data.publications -%}
+    {
+      "@type": "ScholarlyArticle",
+      "headline": {{ p.title | jsonify }},
+      "name": {{ p.title | jsonify }},
+      "author": [
+        { "@type": "Person", "name": "William R. Hauk, Jr.", "sameAs": "https://scholar.google.com/citations?user=B744wv0AAAAJ" }
+        {%- for a in p.coauthors -%}
+        , { "@type": "Person", "name": {{ a | jsonify }} }
+        {%- endfor -%}
+      ],
+      {% if p.year %}"datePublished": "{{ p.year }}",{% endif %}
+      {% if p.journal %}"isPartOf": { "@type": "Periodical", "name": {{ p.journal | jsonify }} },{% endif %}
+      {% if p.doi %}"identifier": "https://doi.org/{{ p.doi }}", "sameAs": "https://doi.org/{{ p.doi }}",{% endif %}
+      {% if p.abstract %}"abstract": {{ p.abstract | strip_newlines | normalize_whitespace | jsonify }},{% endif %}
+      "url": {{ p.url | default: page.url | absolute_url | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}
+</script>

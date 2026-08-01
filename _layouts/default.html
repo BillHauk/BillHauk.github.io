@@ -1,6 +1,18 @@
----
-theme :
-  name : twitter
----
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!doctype html>
+{%- comment -%}
+`site.lang` is "en_US" because that is the format jekyll-seo-tag needs for
+og:locale. The HTML lang attribute is BCP 47 and needs a hyphen, so it is set
+independently here rather than reusing site.lang.
+{%- endcomment -%}
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  {%- include head.html -%}
+</head>
+<body>
+  {%- include header.html -%}
+  <main id="main">
+    {{ content }}
+  </main>
+  {%- include footer.html -%}
+</body>
+</html>

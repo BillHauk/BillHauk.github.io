@@ -1,0 +1,55 @@
+{%- comment -%}
+Renders one paper. Shared by /publications/ and /working-papers/ — it branches on
+whether the entry has a `journal`, so both data files use identical field names
+and promoting a working paper is a copy-paste.
+
+Usage: {% include paper.html paper=p %}
+
+Heading levels are real: page h1 -> section h2 -> entry h3. The old site faked
+this with #### for the title and ##### for both the coauthors and the journal,
+which made three headings out of one citation.
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+{%- assign anchor = p.id | default: p.title | slugify -%}
+{%- if p.url -%}
+  {%- assign primary = p.url -%}
+{%- elsif p.doi -%}
+  {%- assign primary = p.doi | prepend: 'https://doi.org/' -%}
+{%- elsif p.pdf -%}
+  {%- assign primary = p.pdf | relative_url -%}
+{%- endif -%}
+<article class="entry" id="{{ anchor }}">
+
+  <h3 class="entry__title">
+    {%- if primary -%}<a href="{{ primary }}">{{ p.title }}</a>{%- else -%}{{ p.title }}{%- endif -%}
+  </h3>
+
+  {%- if p.coauthors and p.coauthors.size > 0 %}
+  <p class="entry__authors">with {{ p.coauthors | array_to_sentence_string }}</p>
+  {%- endif %}
+
+  <p class="entry__venue">
+    {%- if p.journal -%}
+      <cite>{{ p.journal }}</cite>{% if p.volume %} {{ p.volume }}{% endif %}{% if p.year %}, {{ p.year }}{% endif %}
+    {%- elsif p.status -%}
+      {{ p.status | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+    {%- else -%}
+      Working paper{% if p.year %}, {{ p.year }}{% endif %}
+    {%- endif -%}
+  </p>
+
+  {%- if p.pdf or p.links %}
+  <ul class="entry__links">
+    {%- if p.pdf %}<li><a href="{{ p.pdf | relative_url }}">PDF</a></li>{% endif -%}
+    {%- for l in p.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor -%}
+  </ul>
+  {%- endif %}
+
+  {%- if p.abstract %}
+  <details class="abstract"{% if p.open %} open{% endif %}>
+    <summary>Abstract</summary>
+    <div class="abstract__body">{{ p.abstract | markdownify }}</div>
+  </details>
+  {%- endif %}
+
+</article>

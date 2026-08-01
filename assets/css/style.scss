@@ -1,0 +1,21 @@
+---
+# Empty front matter is required — it tells Jekyll to run this file through Sass.
+# Compiles to /assets/css/style.css. Partials live in _sass/.
+---
+
+// GitHub Pages pins jekyll-sass-converter 1.5.2, i.e. Ruby Sass 3.7.
+// That means @import only: @use, @forward, and math.div are build failures.
+@import
+  "tokens",
+  "reset",
+  "typography",
+  "links",
+  "layout",
+  "nav",
+  "home",
+  "entry",
+  "media",
+  "post",
+  "footer",
+  "dark",
+  "print";

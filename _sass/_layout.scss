@@ -1,0 +1,61 @@
+// One shared gutter box, used by the header, main, and footer so their edges
+// line up exactly.
+
+.wrap {
+  width: 100%;
+  max-width: var(--wrap);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--s5);
+  padding-right: var(--s5);
+}
+
+main {
+  padding-top: var(--s7);
+  padding-bottom: var(--s8);
+}
+
+.page-header {
+  margin-bottom: var(--s6);
+}
+.page-header__title {
+  margin-bottom: 0;
+}
+.page-header__sub {
+  font-family: var(--font-sans);
+  font-size: .9375rem;
+  color: var(--muted);
+  margin-top: var(--s3);
+  max-width: var(--measure);
+}
+
+.section-note {
+  font-family: var(--font-sans);
+  font-size: .875rem;
+  color: var(--muted);
+  margin-bottom: var(--s6);
+}
+
+// Section headings on list pages sit above a garnet-free hairline so they read
+// as structure, not decoration.
+.section {
+  margin-bottom: var(--s8);
+}
+.section:last-child { margin-bottom: 0; }
+.section__title {
+  margin-bottom: var(--s5);
+  padding-bottom: var(--s3);
+  border-bottom: 2px solid var(--text);
+  max-width: none;
+}
+
+.more {
+  font-family: var(--font-sans);
+  font-size: .8125rem;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: var(--s5);
+  margin-bottom: 0;
+}

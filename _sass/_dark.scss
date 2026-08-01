@@ -1,0 +1,54 @@
+// ---------------------------------------------------------------------------
+// Dark mode
+//
+// USC garnet cannot be used as-is here. #73000A against the #14110E page ground
+// is 1.2:1 — effectively invisible. Measured alternatives against #14110E:
+//
+//   #73000A  USC garnet   1.2 : 1   unusable
+//   #CC2E40  USC Rose     3.6 : 1   fails AA for body text; fine for rules
+//   #E0798A               6.5 : 1   used for links and accents
+//   #F0A3AF               9.0 : 1   used for hover
+//
+// #E0798A sits at roughly garnet's hue (~353 degrees), so it reads as garnet
+// lifted rather than as a new color introduced from nowhere.
+// ---------------------------------------------------------------------------
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #14110E;
+    --surface:   #1B1815;
+    --text:      #EDE6DC;
+    --muted:     #A79E93;
+    --rule:      #332D26;
+    --accent:    #E0798A;
+    --accent-hi: #F0A3AF;
+    --on-accent: #14110E;
+    --link-underline: rgba(224, 121, 138, .45);
+    --focus:     #8FB0E0;
+    --selection-bg: #3A2A2C;
+    --footer-bg: #1F0407;
+
+    // The abstract body and blockquotes use --n90 as slightly recessed text;
+    // it has to flip from dark grey to light here or it disappears.
+    --n90: #D6CEC4;
+    --n10: #241F1A;
+    --n50: #6E655B;
+  }
+
+  .headshot { border-color: var(--rule); }
+  .headshot--placeholder {
+    background: #2A1114;
+    color: var(--accent);
+  }
+
+  .site-footer {
+    color: #E4DACD;
+    border-top: 1px solid #3A1519;
+  }
+  .site-footer a { box-shadow: inset 0 -1px 0 0 rgba(228, 218, 205, .40); }
+  .site-footer .eyebrow { color: rgba(228, 218, 205, .58); }
+  .site-footer__legal {
+    color: rgba(228, 218, 205, .62);
+    border-top-color: rgba(228, 218, 205, .18);
+  }
+}
