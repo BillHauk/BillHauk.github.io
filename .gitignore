@@ -10,3 +10,6 @@ assets/_src/
 
 .DS_Store
 Thumbs.db
+
+# Local bundler settings (machine-specific gem path)
+.bundle/
