@@ -49,6 +49,14 @@ main {
   max-width: none;
 }
 
+.error-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: var(--s6);
+  border: 1px solid var(--rule);
+}
+
 .more {
   font-family: var(--font-sans);
   font-size: .8125rem;
