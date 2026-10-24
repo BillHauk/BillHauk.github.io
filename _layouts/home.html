@@ -40,10 +40,10 @@ layout: default
   </section>
   {%- endif %}
 
-  {%- assign recent_media = site.data.media.conversation | sort: "date" | reverse | slice: 0, 3 %}
+  {%- assign recent_media = site.data.media.mentions | sort: "date" | reverse | slice: 0, 3 %}
   {%- if recent_media.size > 0 %}
   <section class="home-section">
-    <p class="eyebrow">Recent commentary</p>
+    <p class="eyebrow">Recent media appearances</p>
     <ul class="media-list">
       {% for m in recent_media %}{% include media-item.html item=m %}{% endfor %}
     </ul>
