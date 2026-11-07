@@ -90,6 +90,38 @@ mentions:
     place: "Anderson, SC"
     date: 2026-01-13
 
+  - title: "The cost of baby gear is up 20% since January"
+    url: "https://www.babycenter.com/family/money/baby-related-costs-2025_41003382"
+    outlet: "BabyCenter.com"
+    date: 2025-07-22
+
+  - title: "Why Do Prices Always Have to Go up?"
+    url: "https://www.marketplace.org/story/2025/06/13/why-do-prices-always-have-to-go-up"
+    outlet: "NPR Marketplace"
+    date: 2025-06-13
+
+  - title: "CNN News Central story about steel and alumnimum tariffs"
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7336477549981548544/"
+    outlet: "CNN"
+    date: 2025-06-04
+
+  - title: "Businesses brace for steel and aluminum tariffs"
+    url: "https://www.washingtonpost.com/business/2025/06/04/steel-aluminum-tariffs-manufacturing-inflation/"
+    outlet: "The Washington Post"
+    place: "Washington, DC"
+    date: 2025-06-04
+
+  - title: "Trump's hike of steel and aluminum tariffs could raise these prices"
+    url: "https://abcnews.com/Business/trumps-hike-steel-aluminum-tariffs-raise-prices/story?id=122410653"
+    outlet: "ABC News"
+    date: 2025-06-02
+
+  - title: "Tariffs and SC...continued"
+    url: "https://www.southcarolinapublicradio.org/show/south-carolina-business-review/2025-05-09/tariffs-and-s-c-continued"
+    outlet: "SC Business Review on South Carolina Public Radio"
+    place: "Columbia, SC"
+    date: 2025-05-09
+
   - title: "Soaring rents pushing more Charleston thirtysomethings back into roommate living"
     url: "https://www.postandcourier.com/news/soaring-rents-pushing-more-charleston-thirtysomethings-back-into-roommate-living/article_0c806642-5c6b-11ed-b2e0-c37d4c6a8437.html"
     outlet: "The Post and Courier"
