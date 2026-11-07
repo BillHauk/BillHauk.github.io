@@ -2,7 +2,8 @@
 # a new entry anywhere in its list and it will land in the right place.
 #
 # `conversation` — bylined articles. Fields: title, url, date.
-# `mentions`     — interviews and quotes. Fields: title, url, outlet, place, date.
+# `mentions`     — interviews and quotes. Fields: title, url, outlet, place, date,
+#                  and optionally `featured: true` to pin it to the home page.
 #
 # Dates are unquoted YYYY-MM-DD so YAML parses them as real dates.
 
@@ -99,17 +100,20 @@ mentions:
     url: "https://www.marketplace.org/story/2025/06/13/why-do-prices-always-have-to-go-up"
     outlet: "NPR Marketplace"
     date: 2025-06-13
+    featured: true
 
   - title: "CNN News Central story about steel and alumnimum tariffs"
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7336477549981548544/"
     outlet: "CNN"
     date: 2025-06-04
+    featured: true
 
   - title: "Businesses brace for steel and aluminum tariffs"
     url: "https://www.washingtonpost.com/business/2025/06/04/steel-aluminum-tariffs-manufacturing-inflation/"
     outlet: "The Washington Post"
     place: "Washington, DC"
     date: 2025-06-04
+    featured: true
 
   - title: "Trump's hike of steel and aluminum tariffs could raise these prices"
     url: "https://abcnews.com/Business/trumps-hike-steel-aluminum-tariffs-raise-prices/story?id=122410653"

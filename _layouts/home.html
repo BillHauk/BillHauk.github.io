@@ -40,7 +40,21 @@ layout: default
   </section>
   {%- endif %}
 
-  {%- assign recent_media = site.data.media.mentions | sort: "date" | reverse | slice: 0, 3 %}
+  {%- comment -%}
+  Mentions marked `featured: true` in _data/media.yml are pinned in their own
+  section; the recent list skips them so nothing appears twice.
+  {%- endcomment -%}
+  {%- assign featured_media = site.data.media.mentions | where: "featured", true | sort: "date" | reverse %}
+  {%- if featured_media.size > 0 %}
+  <section class="home-section">
+    <p class="eyebrow">Featured media appearances</p>
+    <ul class="media-list">
+      {% for m in featured_media %}{% include media-item.html item=m %}{% endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
+  {%- assign recent_media = site.data.media.mentions | where_exp: "m", "m.featured != true" | sort: "date" | reverse | slice: 0, 3 %}
   {%- if recent_media.size > 0 %}
   <section class="home-section">
     <p class="eyebrow">Recent media appearances</p>
